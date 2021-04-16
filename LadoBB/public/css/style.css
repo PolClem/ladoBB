@@ -1,0 +1,201 @@
+body{
+	margin: 0px;
+}
+header{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+	align-items: center;
+	background: #000;
+	background-color: rgba(0, 0, 0, 0.6);
+	display: flex;           
+	justify-content: space-between;
+	position: fixed; 	
+	width: 100%;
+	z-index: 999;
+}
+
+.logo{
+    box-sizing: border-box;
+	padding: 10px;
+}        
+
+nav ul li{
+	display: inline;
+	list-style: none;
+	padding: 10px;
+}
+
+nav ul li a{
+	color: white;
+	font-size: 15px;
+	text-decoration: none;
+}
+
+.splash{
+    align-items: center;
+	background: url(../images/fondo3.jpg) center center fixed transparent;
+	background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 100%;
+}
+
+.hijo h1{
+	color:#666;
+    align-items: left;
+    display: flex;
+    flex-flow: column;
+	font-size: 30px;
+    padding: 50px 0px 0px 10px;
+}
+
+.hijo .esquema{
+    color:#dd5018;
+    align-items: left;
+    display: flex;
+    flex-flow: column;
+    font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+    padding:0px 20px 0px 20px;
+}
+
+.hijo h2{
+	color: #666;
+	font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+	padding: 10px;
+	text-align: justify;
+    width: 45%;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+}
+
+.hijo h3{
+    color:#dd5018;
+    padding: 0px 20px 0px 20px;
+    font-family: 'Oswald', sans-serif;
+	font-size: 20px;
+}
+
+#audio{
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+	float: left;
+}
+
+.center{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+
+.centro .parr{
+    box-sizing: border-box;
+    color: #dd5018;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+.centro .fa-spotify{
+    color:springgreen;
+    font-size: 90px;
+}
+
+.centro .fa-youtube{
+    color: red;
+    font-size: 90px;
+    padding: 10px;
+}
+
+.fb{
+    align-content: center;
+    background: #fafafa;
+    display: flex;
+    flex-wrap: wrap;   
+    justify-content:center;
+    width: 100%;
+}
+
+.fb div{
+    align-content: center;
+    align-items: center;
+    background: transparent;
+    color: #666;
+    box-sizing: border-box;
+    display: flex;
+    flex: none;
+    font-size: 40px;
+    justify-content: center;
+    padding: 0px;;
+    text-align: center;
+    width: 442.5px;
+}
+
+.hijo0{
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column;
+    order: 1;
+}
+
+.hijo1{
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column;
+    order: 2;
+}
+
+.hijo2{
+    align-items: center;	
+    box-sizing: border-box;
+    flex-flow: column;	
+    order: 3;
+}
+
+.hijo3{
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column;
+    order: 4;
+}
+
+.hijo4{
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column;
+    order: 4;
+}
+
+.hijo5{	
+    align-items: center;
+    box-sizing: border-box;
+    flex-flow: column;	
+    order: 6;
+}
+
+#img{
+    align-self: center;
+    order: -1;
+    padding: 10px;
+    width: 40vh;
+}
+
+
+footer{
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+	font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+	margin-top: 60px;
+	padding-top: 15px;
+	text-align: center;    
+}
